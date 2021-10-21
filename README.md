@@ -14,6 +14,7 @@ In implementarea aceste infrastructuri am avut nevoie de urmatoarele librarii:
 ECB -> textul este impartit in blocuri de cate 16bytes si fiecare bloc 
        este criptat/decriptat cu cheia primita (de lungime 16bytes). Aceste
        blocuri sunt salvate intr-ul sir care va reprezenta mesajul codat/decodat
+       
 OFB -> initialization vector-ul este criptat cu cheia data (ambele de lungime
        16 bytes). Blocul rezultat va fi folosit: 1. pentru a face xor cu 
        plaintext-ul si de a face rost de textul cifrat si 2. pentru a fi folosit
